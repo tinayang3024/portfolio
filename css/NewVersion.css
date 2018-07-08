@@ -1,16 +1,14 @@
 body {
-  background-image: url(../assets/pictures/background_large.jpg);
+  background-color: white;
+  /* background-image: url(../assets/pictures/background_large.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
-  width: 100%;
-}
-.name {
-  margin: auto;
+  width: 100%; */
 }
 
-img {
-  opacity: 0.5;
+.name {
+  text-align: center;
 }
 
 .botinfo {
