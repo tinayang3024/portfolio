@@ -42,9 +42,9 @@ li a:hover:not(.active) {
   color: #8e9b9d;
   background-color: #293b3f;
 }
-h1 {
+.name {
   color: #4f6367;
-  font-family: Times New Roman;
+  font-family: Courier;
   font-style: normal;
   text-align: center;
   font-size: 55px;

@@ -1,0 +1,20 @@
+body {
+  background-image: url(../assets/pictures/background_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+.name {
+  margin: auto;
+}
+
+img {
+  opacity: 0.5;
+}
+
+.botinfo {
+  display: block;
+  background-color: white;
+  opacity: 0.5;
+}
