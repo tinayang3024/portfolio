@@ -7,14 +7,6 @@ body {
   width: 100%; */
 }
 
-.navbar{
-  background-color: rgba(0, 0, 0, 0.6);
-}
-.navbar-expand-md{
-  background-color: rgba(0, 0, 0, 0.6);
-}
-
-
 .name {
   text-align: center;
 }
@@ -22,6 +14,11 @@ body {
 
 .containerBox {
   margin: 5% 5%;
+}
+
+.social {
+  display: inline-block;
+  margin: 0 5px;
 }
 
 .social:hover {
