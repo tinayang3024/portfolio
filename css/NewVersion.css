@@ -7,12 +7,67 @@ body {
   width: 100%; */
 }
 
+.navbar{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.navbar-expand-md{
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
 .name {
   text-align: center;
 }
 
-.botinfo {
-  display: block;
-  background-color: white;
-  opacity: 0.5;
+
+.containerBox {
+  margin: 5% 5%;
+}
+
+.social:hover {
+  opacity:0.7;
+}
+div.gallery {
+    border: none;
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 10px;
+    float: left;
+    width: 14.2222%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 25%;
+        margin: 30px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 50%;
+        margin: 10px 0;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
