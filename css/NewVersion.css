@@ -21,7 +21,7 @@
 
 #contact {
   align: center;
-  padding:50px;
+  padding:60px 0px 130px 0px;
   background-color: rgb(2, 17, 40);
   font-size: 20px;
 }
@@ -91,5 +91,6 @@ div.desc {
 }
 
 .navbar {
-  background-color: rgb(2, 17, 40) !important;
+  background-color: rgba(2, 17, 40, 1) !important;
+  z-index: 1;
 }
