@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Tina(Dingyu) Yang</title>
+  <title>Tina's Portfolio'</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,14 +17,30 @@
   <link rel="stylesheet" href="css/NewVersion.css">
 </head>
 <body>
+
+
+  <!-- image slides-->
+  <div class="slideInDown animated">
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/pictures/bg2.jpg" style="width:100%">
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/pictures/bg3.jpg" style="width:100%">
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/pictures/bg4.jpg" style="width:100%">
+    </div>
+  </div>
+
+
   <!-- nav bar -->
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark slideInDown animated fixed-top">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark slideInDown animated">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav" style="position: sticky; position:-webkit-sticky; top:0;">
         <li class="nav-item">
           <a class="nav-link" href="#aboutMe">About Me</a>
         </li>
@@ -41,57 +57,46 @@
     </div>
   </nav>
 
-
-  <!-- image slides-->
-  <div class="slideInDown animated">
-    <div class="mySlides w3-display-container w3-center">
-      <img src="assets/pictures/background_large.jpg" style="width:100%">
-    </div>
-    <div class="mySlides w3-display-container w3-center">
-      <img src="assets/pictures/Sea.jpg" style="width:100%">
-    </div>
-  </div>
-
-
   <!-- content -->
   <div class="container">
 
     <!-- About Me -->
-    <div class="container containerBox" id="aboutMe">
+    <div class="container" id="aboutMe">
       <h3 class="slideInLeft animated">About Me</h3>
       <br  />
       <!-- photo -->
-      <div class="w3-col l3 flipInX animated">
-        <div class="w3-card w3-margin w3-margin-top">
+      <div class="container" style="overflow:hidden;">
+        <div class="w3-col l3 flipInX animated w3-card w3-margin w3-margin-top">
         <img src="assets/pictures/photo.jpg" style="width:100%">
         </div>
-      </div><br  />
-      <!-- info -->
-      <div class="container slideInRight animated">
-        <h1>Hello, <br  />I am Tina(Dingyu) Yang.</h1>
         <br  />
-            <!-- linkedIn -->
-            <a href="https://www.linkedin.com/in/dingyu-yang-a866a6153/" target="_blank">
-              <img class="social" src="assets/pictures/linkedin.png" alt="LinkedIn" style="width:30px;height:30px;border:0;">
+        <!-- info -->
+        <div class="container slideInRight animated">
+          <h1>Hello, <br  />I am Tina(Dingyu) Yang.</h1>
+          <br  />
+              <!-- linkedIn -->
+              <a href="https://www.linkedin.com/in/dingyu-yang-a866a6153/" target="_blank">
+                <img class="social" src="assets/pictures/linkedin.png" alt="LinkedIn" style="width:30px;height:30px;border:0;">
+              </a>
+              <!-- Github -->
+              <a href="https://github.com/tinayang3024" target="_blank">
+                <img class="social" src="assets/pictures/github.png" alt="Github" style="width:30px;height:30px;border:0;">
+              </a>
+              <!-- phone -->
+              <a href="tel:778-323-2396" data-toggle="tooltip" data-placement="bottom" title="(778) 323-2396">
+                <img class="social" src="assets/pictures/phone.png" alt="Cell Phone" style="width:30px;height:30px;border:0;">
+              </a>
+            <!-- email -->
+            <a href="mailto:dingyu.yang@mail.utoronto.ca" data-toggle="tooltip" data-placement="bottom" title="dingyu.yang@mail.utoronto.ca">
+              <img class="social" src="assets/pictures/email.jpg" alt="E-mail" style="width:30px;height:30px;border:0;">
             </a>
-            <!-- Github -->
-            <a href="https://github.com/tinayang3024" target="_blank">
-              <img class="social" src="assets/pictures/github.png" alt="Github" style="width:30px;height:30px;border:0;">
-            </a>
-            <!-- phone -->
-            <a href="tel:778-323-2396" data-toggle="tooltip" data-placement="bottom" title="(778) 323-2396">
-              <img class="social" src="assets/pictures/phone.png" alt="Cell Phone" style="width:30px;height:30px;border:0;">
-            </a>
-          <!-- email -->
-          <a href="mailto:dingyu.yang@mail.utoronto.ca" data-toggle="tooltip" data-placement="bottom" title="dingyu.yang@mail.utoronto.ca">
-            <img class="social" src="assets/pictures/email.jpg" alt="E-mail" style="width:30px;height:30px;border:0;">
-          </a>
+        </div>
       </div>
     </div>
     <br  />
-    <hr class="w3-border-grey" style="margin:auto;width:70%">
+    <!-- <hr class="w3-border-grey" style="margin:auto;width:70%"> -->
     <!-- Skills -->
-    <div class="container containerBox" id="skills">
+    <div class="container" id="skills" style="overflow:auto;">
       <h3 class="slideInLeft animated">Skills</h3>
       <br  />
       <!-- language icons -->
@@ -144,18 +149,52 @@
       </div>
       <div class="clearfix"></div>
     </div>
-    <hr class="w3-border-grey" style="margin:auto;width:70%">
+    <br />
+    <!-- <hr class="w3-border-grey" style="margin:auto;width:70%"> -->
     <!-- Experience -->
-    <div class="container containerBox" id="exp">
+    <div class="container" id="exp">
       <h3 class="slideInLeft animated">Experience</h3>
       <br  />
-      <div class="slideInRight animated">
-        <p>blbalbalblblldf dkfajsdfhwaou isdafhkal asdufhlkashf</p>
+      <div class="container slideInRight animated">
+        <div>
+        <!-- UBC -->
+        <div>
+          <h4><b>Lab Assistant</b> <span style="color: grey;">at Neuroimmunology Laboratory at University of British Columbia Hosipital</span></h4>
+          <!-- UBC content -->
+          <i class="fa fa-map-marker"></i><small> Vancouver, British Columbia</small>
+          <i class="fa fa-calendar fa-fw"></i><small> Feb 2016 - Mar 2016</small>
+          <div class="container">
+            <!-- UBC duties -->
+            <div>
+              <ul style="list-style-type: circle;">
+                <li>Organizing patient information</li>
+                <li>Liquating and sorting blood samples</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <br  />
+        <!-- Pharmasave -->
+        <div>
+          <h4><b>Pharmacist Assistant</b> <span style="color:grey;">at Pharmasave</span></h4>
+          <i class="fa fa-map-marker"></i><small> Surrey, British Columbia</small>
+          <i class="fa fa-calendar fa-fw"></i><small> May 2016 - Jun 2016</small>
+          <!-- pharmacist content -->
+          <div class="container">
+            <!-- Pharmasave duties -->
+            <div>
+              <ul style="list-style-type: circle;">
+                <li>Blister packing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <hr class="w3-border-grey" style="margin:auto;width:70%">
+    <br  />
+    <!-- <hr class="w3-border-grey" style="margin:auto;width:70%"> -->
     <!-- Education -->
-    <div class="container containerBox" id="edu">
+    <div id="edu">
       <h3 class="slideInLeft animated">Education</h3>
       <br  />
       <!-- UofT -->
@@ -164,7 +203,7 @@
         <img src="assets/pictures/UofT.png" style="width:100%">
           <div class="w3-container w3-white">
             <h4><b>University of Toronto</b><br  />2017-Current</h4>
-            <small>Toronto, Ontario</small>
+            <i class="fa fa-map-marker"></i><small> Toronto, Ontario</small>
             <ul style="list-style-type: circle;">
               <li>Undergraduate Computer Engineering Student</li>
             </ul>
@@ -177,7 +216,7 @@
         <img src="assets/pictures/Elgin.png" style="width:100%">
           <div class="w3-container w3-white">
             <h4><b>Elgin Park Secondary School</b><br  />2012-2017</h4>
-            <small>Surrey, British Columbia</small>
+            <i class="fa fa-map-marker"></i><small> Surrey, British Columbia</small>
             <ul style="list-style-type: circle;">
               <li>GPA 3.7 - 4.0 (~92.5+ %) from Gr. 8 - Gr. 12</li>
               <li>Top Student in all Math/Pre-Calculus/Calculus/Physics courses from Gr.8 - Gr. 12</li>
